@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import JoinPoll from '../components/polls/joinPoll.jsx';
+import JoinPoll from '../components/polls/JoinPoll.jsx';
 import Navbar from './../components/Navbar.jsx';
 import { Outlet, useLocation, matchPath } from 'react-router-dom';
 
