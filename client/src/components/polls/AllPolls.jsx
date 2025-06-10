@@ -22,7 +22,8 @@ export default function AllPolls(){
             let res = await axios.get(`${import.meta.env.VITE_SERVER_API}/polls/admin/all`,{
                 headers:{
                     Authorization: `Bearer ${token}`
-                }
+                },
+                withCredentials: true
             });
 
             if(res.status == 200){

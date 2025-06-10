@@ -39,7 +39,8 @@ export default function CreatePoll() {
             let res = await axios.post(`${import.meta.env.VITE_SERVER_API}/polls/create`, data, {
                 headers: {
                     Authorization: `Bearer ${token}`
-                }
+                },
+                withCredentials: true
             });
 
             if (res.status === 201) {

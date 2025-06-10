@@ -84,6 +84,7 @@ export default function PollPage() {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
+                withCredentials:true
             });
             if (res.status === 200) {
                 toast.success(res.data.msg);
