@@ -9,7 +9,7 @@ import PollPage from './pages/PollPage.jsx';
 import Layout from './pages/Layout.jsx';
 import VotePage from './pages/VotePage.jsx';
 import CreatePoll from './components/polls/CreatePoll.jsx';
-import AllPolls from './components/polls/allPolls.jsx';
+import AllPolls from './components/polls/AllPolls.jsx';
 import NotFoundPage from './pages/NotFoundPage.jsx';
 
 createRoot(document.getElementById('root')).render(
