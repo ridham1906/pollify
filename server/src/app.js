@@ -29,7 +29,7 @@ app.use('/api/user', usersRoute);
 app.set('io', getIo());
 
 app.get('/', (req, res) => {
-    res.send('server is working :)'); 
+    res.json({msg: 'server is working :)'}); 
 });
 
 const startServer = async () => {
