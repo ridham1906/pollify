@@ -13,7 +13,7 @@ const pollRoute = require('./routes/pollRoute');
 const usersRoute = require('./routes/usersRoute');
 
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: [`${process.env.CLIENT_URL}`],
     methods: ['GET', 'POST', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
