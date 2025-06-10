@@ -113,9 +113,9 @@ VITE_SERVER_API=http://localhost:4000/api
 
 ---
 
-## 📸 Screenshots
+## 📸 Walkthrough Video
 
-> _Add screenshots here for UI, poll creation, voting, and results!_
+Watch on Youtube :   [ https://youtu.be/tOaw61t219w ]
 
 ---
 
